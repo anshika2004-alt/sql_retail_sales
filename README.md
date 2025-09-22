@@ -13,6 +13,11 @@ This project is designed to demonstrate SQL skills and techniques to explore, cl
 2. **Data Cleaning**: Identify and remove any records with missing or null values.
 3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
 4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+ 
+## Tools And Techniques 
+
+1. **PostgreSQL**: An open-source relational database system used to manage all project data. It was chosen for its reliability and advanced features, which ensured data integrity and efficient query processing.
+2. **PgAdmin 4**: The primary graphical user interface (GUI) used for administering and developing the PostgreSQL database. It facilitated tasks such as database design, data management, and query execution.
 
 ## Project Structure
 
