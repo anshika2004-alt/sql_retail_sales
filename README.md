@@ -80,6 +80,7 @@ FROM retail_sales
 WHERE sale_date = '2022-11-05';
 ```
 **Output** 
+
 <img width="1565" height="395" alt="1a" src="https://github.com/user-attachments/assets/e9467988-978b-42fb-86c8-b7bd6bce35d9" />
 
 
@@ -94,6 +95,7 @@ AND
 quantity >=4;
 ```
 **Output**
+
 <img width="1566" height="361" alt="2" src="https://github.com/user-attachments/assets/a46efdf2-7573-469f-9aad-9dfa61b6fb68" />
 
 3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
@@ -106,6 +108,7 @@ FROM retail_sales
 GROUP BY 1;
 ```
 **Output**
+
 <img width="458" height="142" alt="3" src="https://github.com/user-attachments/assets/211efd63-6fc9-4ccc-af42-94f6c3ecd3ec" />  
 
 
@@ -118,6 +121,7 @@ FROM retail_sales
 WHERE category = 'Beauty';
 ```
 **Output**
+
 <img width="92" height="82" alt="4" src="https://github.com/user-attachments/assets/c22b2a21-cfce-45c8-a7b0-9f9de4acff04" />
 
 
@@ -128,6 +132,7 @@ FROM retail_sales
 WHERE total_sale> 1000;
 ```
 **Output**
+
 <img width="1540" height="391" alt="5a" src="https://github.com/user-attachments/assets/567661b0-7d26-4d86-8e01-ed15bb38815e" />
 
 
@@ -142,6 +147,7 @@ GROUP BY 1,2
 ORDER BY 1;
 ```
 **Output**
+
 <img width="498" height="233" alt="6" src="https://github.com/user-attachments/assets/7517080b-c624-40b1-b1b5-5cebcdc51deb" />
 
 
@@ -164,6 +170,7 @@ GROUP BY 1, 2
 WHERE rank = 1;
 ```
 **Output**
+
 <img width="351" height="107" alt="7" src="https://github.com/user-attachments/assets/a671cc11-52fd-4707-a0b9-0245a2b5b202" />
 
 
@@ -178,6 +185,7 @@ SELECT
  LIMIT 5;
 ```
 **Output**
+
 <img width="277" height="207" alt="8" src="https://github.com/user-attachments/assets/8437b0ed-7c45-49b8-b05a-6ebe65a927aa" />
 
 
@@ -190,6 +198,7 @@ FROM retail_sales
 GROUP BY 1;
 ```
 **Output**
+
 <img width="302" height="146" alt="9" src="https://github.com/user-attachments/assets/923247ac-42fc-4a04-b630-265e1d1198bf" />
 
 
@@ -213,6 +222,7 @@ FROM hourly_sale
 GROUP BY shift;
 ```
 **Output**
+
 <img width="210" height="143" alt="10" src="https://github.com/user-attachments/assets/8316543e-9533-4477-b9c7-b7af826997a3" />
 
 
