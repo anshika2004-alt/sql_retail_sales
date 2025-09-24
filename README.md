@@ -54,14 +54,19 @@ CREATE TABLE retail_sales
 SELECT * FROM retail_sales
 LIMIT 10;
 ```
-
 - **Customer Count**: Find out how many unique customers are in the dataset.
 
    ```sql
   SELECT COUNT(DISTINCT customer_id)
    FROM retail_sales;
-`
+
 - **Category Count**: Identify all unique product categories in the dataset.
+
+```sql
+SELECT COUNT(DISTINCT category)
+FROM retail_sales;
+```
+
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
 ```sql
