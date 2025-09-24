@@ -51,8 +51,6 @@ CREATE TABLE retail_sales
 
  ```sql
  SELECT COUNT(*) FROM retail_sales;
-SELECT * FROM retail_sales
-LIMIT 10;
 ```
 - **Customer Count**: Find out how many unique customers are in the dataset.
 
