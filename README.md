@@ -24,11 +24,13 @@ This project is designed to demonstrate SQL skills and techniques to explore, cl
 ### 1. Database Setup
 
 - **Database Creation**: The project starts by creating a database named `sql_project_p1`.
+  ```sql
+  CREATE DATABASE sql_project_p1;
+  ```
+  
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
-CREATE DATABASE sql_project_p1;
-
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
@@ -52,11 +54,19 @@ CREATE TABLE retail_sales
  ```sql
  SELECT COUNT(*) FROM retail_sales;
 ```
+**Output**
+
+<img width="127" height="82" alt="q2 1" src="https://github.com/user-attachments/assets/e6281ea6-721d-4d93-be1a-3a76a691ef0f" />
+
 - **Customer Count**: Find out how many unique customers are in the dataset.
 
    ```sql
   SELECT COUNT(DISTINCT customer_id)
    FROM retail_sales;
+   ```
+   **Output**
+  
+<img width="128" height="83" alt="q2 2" src="https://github.com/user-attachments/assets/9e8af6be-f530-42d3-a99f-a4a37fdfa510" />
 
 - **Category Count**: Identify all unique product categories in the dataset.
 
@@ -64,6 +74,10 @@ CREATE TABLE retail_sales
 SELECT COUNT(DISTINCT category)
 FROM retail_sales;
 ```
+**Output**
+
+<img width="131" height="78" alt="q2 3" src="https://github.com/user-attachments/assets/ddaf9e1c-1284-4624-b705-f4e96c36825e" />
+
 
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
