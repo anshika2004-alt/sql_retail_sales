@@ -60,7 +60,7 @@ LIMIT 10;
    ```sql
   SELECT COUNT(DISTINCT customer_id)
    FROM retail_sales;
-```
+`
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
